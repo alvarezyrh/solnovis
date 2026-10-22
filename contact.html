@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hubungi PT Solnovis Main Global untuk mendiskusikan kebutuhan ekspor dan komoditas pertanian Indonesia.">
+    <meta name="theme-color" content="#102c27">
+    <title>Hubungi Kami | PT Solnovis Main Global</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="PT Solnovis Main Global, beranda"><span class="brand-mark" aria-hidden="true">S</span><span class="brand-name">SOLNOVIS<span>MAIN GLOBAL</span></span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Buka menu navigasi"><span></span><span></span></button>
+        <nav class="primary-nav" id="primary-nav" aria-label="Navigasi utama">
+            <a href="index.html">Beranda</a><a href="about.html">Tentang Kami</a><a href="product.html">Komoditas</a><a href="services.html">Layanan</a><a class="nav-cta active" href="contact.html" aria-current="page">Hubungi Kami <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
+    <main>
+        <section class="page-hero section-wrap contact-page-hero">
+            <p class="eyebrow">Kontak Solnovis</p>
+            <h1>Mari bicarakan<br><em>kebutuhan komoditas Anda.</em></h1>
+            <p class="page-lead">Ceritakan produk yang Anda cari dan kebutuhan pasar Anda. Tim kami akan meninjau informasi tersebut untuk pembahasan lebih lanjut.</p>
+        </section>
+        <section class="contact-section section-wrap">
+            <div class="contact-aside">
+                <p class="eyebrow">Permintaan bisnis</p>
+                <h2>Mulai dengan<br>detail kebutuhan.</h2>
+                <p>Mohon sertakan nama komoditas, spesifikasi yang dibutuhkan, perkiraan volume, dan negara tujuan bila sudah diketahui.</p>
+                <div class="contact-note"><span class="note-dot"></span><span>Informasi Anda digunakan untuk menindaklanjuti permintaan ini.</span></div>
+            </div>
+            <form class="contact-form" id="inquiry-form">
+                <div class="form-row">
+                    <label for="name">Nama lengkap <span>*</span><input id="name" name="name" type="text" autocomplete="name" placeholder="Nama Anda" required></label>
+                    <label for="company">Perusahaan<input id="company" name="company" type="text" autocomplete="organization" placeholder="Nama perusahaan"></label>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email bisnis <span>*</span><input id="email" name="email" type="email" autocomplete="email" placeholder="nama@perusahaan.com" required></label>
+                    <label for="product">Komoditas yang diminati
+                        <select id="product" name="product">
+                            <option value="">Pilih komoditas</option><option value="Kapulaga">Kapulaga</option><option value="Pala">Pala</option><option value="Jahe">Jahe</option><option value="Kemiri">Kemiri</option><option value="Lainnya">Lainnya</option>
+                        </select>
+                    </label>
+                </div>
+                <label for="message">Ceritakan kebutuhan Anda <span>*</span><textarea id="message" name="message" rows="5" placeholder="Spesifikasi, volume, negara tujuan, atau pertanyaan lainnya" required></textarea></label>
+                <button class="button button-primary form-submit" type="submit">Siapkan permintaan <span aria-hidden="true">→</span></button>
+                <p class="form-status" id="form-status" role="status" aria-live="polite">Formulir ini akan menyiapkan email di aplikasi email Anda; pesan belum dikirim sampai Anda menekan tombol kirim di sana.</p>
+            </form>
+        </section>
+        <section class="faq-section section-wrap">
+            <p class="eyebrow">Agar percakapan lebih mudah</p>
+            <h2>Siapkan informasi dasar berikut.</h2>
+            <div class="faq-list">
+                <article class="faq-item"><h3>Produk dan spesifikasi</h3><p>Nama komoditas, bentuk produk, mutu yang diinginkan, serta opsi kemasan yang dibutuhkan.</p></article>
+                <article class="faq-item"><h3>Estimasi volume</h3><p>Perkiraan jumlah atau kebutuhan berkala membantu memperjelas ruang lingkup permintaan.</p></article>
+                <article class="faq-item"><h3>Negara tujuan</h3><p>Bagikan lokasi tujuan dan target waktu pengiriman jika informasi tersebut sudah tersedia.</p></article>
+                <article class="faq-item"><h3>Informasi perusahaan</h3><p>Nama perusahaan dan email bisnis memudahkan tim menghubungi Anda untuk tindak lanjut.</p></article>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <a class="brand brand-footer" href="index.html"><span class="brand-mark" aria-hidden="true">S</span><span class="brand-name">SOLNOVIS<span>MAIN GLOBAL</span></span></a>
+        <p>Komoditas Indonesia untuk dunia.</p><span class="footer-copyright">© <span data-year>2026</span> PT Solnovis Main Global</span>
+    </footer>
+</body>
+</html>
